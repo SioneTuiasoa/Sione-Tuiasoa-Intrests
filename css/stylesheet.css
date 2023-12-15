@@ -1,0 +1,40 @@
+.background-primary {
+  --bs-bg-opacity: 1;
+  background-color: #bd5d38 !important;
+}
+
+.background-secondary {
+  --bs-bg-opacity: 1;
+  background-color: #171717 !important;
+}
+
+.hero {
+  background-color: rgba(14, 15, 31, 0.512);
+  background-image: url("../assets/img/Mountains.jpg");
+ 
+  background-size: cover;
+  background-blend-mode: color;
+  padding-bottom: 100px;
+
+  color: whitesmoke;
+}  
+
+h1,h3{
+  font-family:'Courier New', Courier, 'Courier New', Courier, monospace;
+  color:rgb(0, 0, 0);
+}
+
+h2{
+  color: #bd5d38;
+}
+
+.sub {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.mb {
+  margin-bottom: 1rem !important;
+}
